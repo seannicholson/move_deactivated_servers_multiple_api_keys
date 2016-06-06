@@ -45,6 +45,9 @@ In the config.py is a api_key_path variable that specifies the location of your 
 You will need to create a file named api_keys.txt that contains your API Key ID and API Key Secret using this format
 > apikeyID:apikeySecret
 
+You can add a descriptor to each API Key using a single space and a name
+> apikeyID:apikeySecret Test_portal_API_key
+
 The keypair must have full access (read-write), and as always, you will want to
 protect the security
 
